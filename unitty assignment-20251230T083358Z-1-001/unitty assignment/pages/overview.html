@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kevin Missal Book Café</title>
+    <link rel="stylesheet" href="overview.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="wrap nav__row">
+
+    <a class="brand" href="../index.html">
+      <span class="brand__logo">
+
+        <img
+          src="brand logo.png"
+          alt="Kevin Missal's Cafe Logo"
+          class="brand__logo-img"
+        />
+        <svg
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="brand__chip"
+          aria-hidden="true"
+        >
+          <path d="M10 2v2"></path>
+          <path d="M14 2v2"></path>
+          <path
+            d="M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1"
+          ></path>
+          <path d="M6 2v2"></path>
+        </svg>
+
+      </span>
+      <span class="brand__text">
+        Kevin Missal's Cafe
+        <small>FRANCHISING DIVISION</small>
+      </span>
+    </a>
+
+        <nav class="menu" aria-label="Primary">
+          <a href="overview.html">Overview</a>
+          <a href="about.html">About Kevin</a>
+
+          <div class="dropdown">
+            <button
+              class="dropdown-toggle"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Franchise <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="../index.html#requirements">Requirements</a></li>
+              <li><a href="../index.html#process">Process</a></li>
+              <li><a href="../index.html#support-tabs">Support</a></li>
+              <li><a href="../index.html#financials">Financial</a></li>
+              <li><a href="../index.html#apply">Apply Now</a></li>
+              <li><a href="../index.html#faq">FAQ</a></li>
+            </ul>
+          </div>
+
+          <a href="javascript:void(0)" onclick="scrollToFooter()">Contact Us</a>
+        </nav>
+
+        <div class="cta">
+          <a class="btn" href="javascript:void(0)" onclick="scrollToFooter()">Contact Us</a>
+          <a class="btn btn--dark" href="../index.html#apply">Apply Now</a>
+        </div>
+      </div>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="wrap">
+        <h1>Kevin Missal Book Café</h1>
+        <p class="tagline">Where books, coffee, and community come together.</p>
+      </div>
+    </section>
+
+    <!-- Story Section -->
+    <section class="story">
+      <div class="wrap">
+        <h2>A Reader’s Retreat</h2>
+        <p>
+          Imagine the aroma of freshly brewed coffee mingling with the scent of
+          new books, shelves lined with timeless classics curated by bestselling
+          author Kevin Missal, and cozy nooks where conversations pause so
+          stories can take over. This isn’t just a café — it’s a cultural space
+          where books, coffee, and community come together.
+        </p>
+      </div>
+    </section>
+
+            <script>
+              function scrollToFooter() {
+                const footer = document.getElementById("site-footer");
+                if (footer) footer.scrollIntoView({ behavior: "smooth" });
+              }
+            </script>
+    <!-- Experience Section -->
+    <section class="experience">
+      <div class="wrap grid">
+        <div class="text">
+          <h2>More Than Just a Menu</h2>
+          <p>
+            From morning lattes to late-evening poetry sessions, the café offers
+            more than just a menu. Sip a cappuccino while flipping through a
+            Pocket Classic, attend a weekend author meet-and-greet, or join our
+            book swap shelf tradition.
+          </p>
+          <p>
+            We host regular events — readings, workshops, and open mics — making
+            sure that every visit feels different, yet familiar.
+          </p>
+        </div>
+        <div class="image">
+          <img src="img1.png" alt="Kevin Missal Cafe Interior" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Publishing Section -->
+    <section class="publishing">
+      <div class="wrap">
+        <h2>The Publishing Backbone</h2>
+        <p>
+          Behind the café lies a publishing powerhouse: through Hubhawks,
+          NuVoice Press, and Solomon Press, we’ve sold millions of books and
+          built one of India’s strongest networks for distribution and literary
+          engagement.
+        </p>
+        <p>
+          Our shelves don’t just display books — they represent our own
+          imprints, box sets, and curated collections, giving every reader
+          access to beautifully produced stories.
+        </p>
+      </div>
+    </section>
+
+    <!-- Franchise Section -->
+    <section class="franchise">
+      <div class="wrap grid" id="flex-direction">
+        <div class="text">
+          <h2>Franchise With Us</h2>
+          <p>
+            For those who dream bigger, the Kevin Missal Book Café franchise
+            model extends this vision across cities. With a zero franchise fee,
+            transparent revenue share, and proven publishing-plus-café synergy,
+            we empower partners to run profitable outlets while being part of a
+            brand that readers already trust.
+          </p>
+        </div>
+        <div class="image">
+          <img src="img2.png" alt="Franchise Café" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Closing Section -->
+    <section class="closing">
+      <div class="wrap">
+        <h2>Your Place for Stories</h2>
+        <p>
+          Whether you’re here for a quiet read, a lively discussion, a cup of
+          coffee, or to explore a business opportunity — Kevin Missal Book Café
+          is your place where stories brew, connections spark, and communities
+          grow.
+        </p>
+      </div>
+    </section>
+
+    <footer id="site-footer" class="site-footer">
+      <div class="wrap">
+        <div class="f-grid">
+
+          <div class="f-brand">
+            <div class="brandmark" aria-hidden="true">
+              <span class="tile"></span>
+              <span class="badge"></span>
+            </div>
+            <div class="brandtext">
+              <div class="ft-title">Kevin Missal's Cafe</div>
+              <div class="ft-sub">FRANCHISING DIVISION</div>
+            </div>
+
+            <p class="ft-blurb">
+              India’s premier literary cafe franchise bringing books, coffee,
+              and community together.
+            </p>
+          </div>
+
+
+          <nav class="f-col">
+            <h4>Quick Links</h4>
+            <ul class="ft-links">
+              <li><a href="#overview">Franchise Overview</a></li>
+              <li><a href="#requirements">Requirements</a></li>
+              <li><a href="#process">Application Process</a></li>
+              <li><a href="#support">Support System</a></li>
+              <li><a href="#financials">Financial Information</a></li>
+            </ul>
+          </nav>
+
+  
+          <div class="f-col">
+            <h4>Franchise Benefits</h4>
+            <ul class="ft-dots">
+              <li>Zero franchise fees</li>
+              <li>Celebrity brand recognition</li>
+              <li>Comprehensive training</li>
+              <li>Ongoing support</li>
+              <li>Proven business model</li>
+            </ul>
+          </div>
+
+          <div class="f-col">
+            <h4>Contact</h4>
+            <ul class="ft-contact">
+              <li>
+                <a href="mailto:franchise@kevinmissalcafe.com"
+                  >franchise@kevinmissalcafe.com</a
+                >
+              </li>
+              <li><a href="tel:+919876543210">+91 98765 43210</a></li>
+              <li>Mumbai, Maharashtra, India</li>
+              <li><a class="apply" href="#apply">Apply Now →</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <hr class="ft-rule" />
+
+        <div class="ft-bottom">
+          <div class="copy">
+            © 2024 Kevin Missal’s Cafe Franchising. All rights reserved.
+          </div>
+          <nav class="legal">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Franchise Disclosure</a>
+          </nav>
+        </div>
+      </div>
+    </footer>
+    <script>
+      function scrollToFooter() {
+        const footer = document.getElementById("site-footer");
+        if (footer) footer.scrollIntoView({ behavior: "smooth" });
+      }
+    </script>
+  </body>
+</html>
